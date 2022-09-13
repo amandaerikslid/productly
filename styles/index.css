@@ -1,7 +1,25 @@
-.logo {
-    border: 5px solid orange;
+.header {
     display: flex;
-    margin: 20px;
+}
+
+.logo {
+    display: flex;
+}
+
+.nav-list {
+    background-color: white;
+    box-shadow: 0px 0px 10px var(--clr-gray200);
+    margin: 0%;
+    padding: 1px border: 2px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 2rem;
+    color: black;
 }
 
 .card_section {
@@ -12,7 +30,8 @@
 
 }
 
-.card_info, .card_image {
+.card_info,
+.card_image {
     display: flex;
     border: 5px solid black;
     max-width: 40%;
@@ -27,7 +46,7 @@
     line-height: 54px;
     max-width: 500px;
     min-height: 100px;
-    overflow:hidden;
+    overflow: hidden;
     margin-top: 50px;
 }
 
@@ -54,3 +73,32 @@
     width: 150px;
     margin: 20px;
 }
+/*
+.sign-in {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 24px;
+    color: #000000;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    height: 40px;
+    width: 120px;
+    margin: 20px;
+}
+
+.sign-up {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 24px;
+    background: #FF9900;
+    border-radius: 4px;
+    border-color: #FF9900;
+    height: 40px;
+    width: 120px;
+    margin: 20px;
+} /*

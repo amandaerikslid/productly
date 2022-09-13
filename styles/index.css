@@ -1,14 +1,14 @@
 .logo {
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .nav-list {
     background-color: white;
     margin: 0%;
     padding: 1px border:2px;
-    display:flex;
-    justify-content:flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .nav-item {
@@ -111,7 +111,7 @@
     justify-content: center;
 }
 
-.header-two {
+.header_scnd {
     display: flex;
     font-family: 'Poppins', sans-serif;
     border: 5px solid rgb(255, 255, 255);
@@ -190,7 +190,7 @@
 
 .card_section_three {
     display: flex;
-    border: solid rgb(0, 0, 0);
+    border: solid rgb(255, 255, 255);
     max-width: 100%;
     min-height: 100%;
     justify-content: center;
@@ -200,7 +200,7 @@
 
 .design_prof {
     display: flex;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
     flex-direction: column;
     max-width: 30%;
 
@@ -252,4 +252,47 @@
 
 .image_three {
     margin-right: 30px;
+}
+
+.bom {
+    max-width: 32%;
+}
+
+.footer-container {
+    background-color: white;
+    padding-bottom: 4rem;
+}
+
+.footer {
+    width: 80%;
+    height: 20vh;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+.footer1, .footer2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #544837;
+    display: flex;
+    flex-direction: column;
+    border: 10px solid rgb(255, 255, 255);
+    margin-right: 3%;
+
+}
+
+.footer-email-form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.btn {
+    margin-top: 15px;
 }

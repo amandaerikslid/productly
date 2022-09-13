@@ -6,9 +6,9 @@
 .nav-list {
     background-color: white;
     margin: 0%;
-    padding: 1px border: 2px;
-    display: flex;
-    justify-content: flex-end;
+    padding: 1px border:2px;
+    display:flex;
+    justify-content:flex-end;
 }
 
 .nav-item {
@@ -190,7 +190,7 @@
 
 .card_section_three {
     display: flex;
-    border: solid rgb(255, 255, 255);
+    border: solid rgb(0, 0, 0);
     max-width: 100%;
     min-height: 100%;
     justify-content: center;
@@ -200,13 +200,14 @@
 
 .design_prof {
     display: flex;
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
     flex-direction: column;
-    max-width: 40%;
-    overflow: visible;
+    max-width: 30%;
+
+
 }
 
-.effort {
+.top_title {
     display: flex;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -226,7 +227,7 @@
     color: #2F281E;
 }
 
-.three_small_title {
+.small_title {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -235,11 +236,20 @@
     color: #2F281E;
 }
 
-.three_content {
+.lil_content {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
     color: #544837;
+    display: flex;
+}
+
+.guy {
+    margin-left: 15%;
+}
+
+.image_three {
+    margin-right: 30px;
 }
